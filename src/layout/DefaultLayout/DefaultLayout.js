@@ -13,7 +13,7 @@ function DefaultLayout({children}){
         setTimeout(()=>{
             setBarProcess(false);
             setContent(true)
-        },[5000])
+        },[2500])
     },[])
     return(
         <div className="px-10 md:px-24">

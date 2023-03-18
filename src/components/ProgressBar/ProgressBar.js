@@ -7,7 +7,7 @@ const ProgressBar = () => {
     const timer = setTimeout(() => {
       width===100 ? clearTimeout(timer) : setWidth(parseFloat(width.toFixed(1)) + 0.1) ;
       
-    }, 3);
+    }, 1);
 
     return () => {
       clearTimeout(timer);

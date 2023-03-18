@@ -43,11 +43,13 @@ function Welcome() {
                         >
                             Download my CV
                         </button>
-                        <button 
-                            className="md:text-4xl rounded-2xl md:rounded-3xl  font-medium bg-transparent border-2 border-black dark:border-white text-black dark:text-white px-3 py-2 md:px-6 md:py-4 mx-5"
+                        <a 
+                            href="https://m.me/lntt.1806"
+                            target={'_blank'}
+                            className="md:text-4xl rounded-2xl md:rounded-3xl  font-medium bg-transparent border-2 border-black dark:border-white text-black dark:text-white px-3 py-2 md:px-6 md:py-4 mx-5" rel="noreferrer"
                         >
                             Let's Talk
-                        </button>
+                        </a>
                     </section>
                 </div>
                 {/* Image */}
