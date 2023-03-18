@@ -18,7 +18,7 @@ function Welcome() {
     }, []);
 
     return ( 
-        <div className="h-screen pt-56 md:pt-0">
+        <div className="h-screen pt-32 md:pt-0">
             {/* Image Astronaut */}
             <div>
                 <img 

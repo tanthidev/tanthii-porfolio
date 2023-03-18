@@ -30,12 +30,12 @@ function Knowledge() {
   ];
 
   return ( 
-    <div className="flex justify-between">
+    <div className="flex justify-between relative mt-32">
       {/* Left */}
-      <div className="w-full px-20" ref={ref}>
-        <h2 className="text-purple-title dark:text-blue-title text-center md:text-6xl font-bold mb-16">MY KNOWLEDGE</h2>
+      <div className="w-full px-20 z-10" ref={ref}>
+        <h2 className="text-purple-title dark:text-blue-title  text-center text-4xl md:text-6xl font-bold mb-16">MY KNOWLEDGE</h2>
         {/* Items */}
-        <div className={`grid grid-cols-4 gap-x-28 gap-y-10 ${isInView?'opacity-100':'opacity-0'}`}>
+        <div className={`grid grid-cols-4 gap-x-10 md:gap-x-28 gap-y-10 ${isInView?'opacity-100':'opacity-0'}`}>
           {items.map((item, index) => {
             return (
               <DelayedRender
@@ -58,7 +58,7 @@ function Knowledge() {
       </div>
 
       {/* Right */}
-      <div className="">
+      <div className="hidden md:block">
         <img 
           src={images.planet.planet2}
           alt='planet'    
