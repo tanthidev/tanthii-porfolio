@@ -30,7 +30,8 @@ module.exports = {
       textColor: ['dark'],
       backgroundImage: ['dark'],
       borderColor: ['dark'],
-      display: ['dark']
+      display: ['dark'],
+      boxShawdow: ['dark']
     },
   },
 

@@ -1,22 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { useInView } from 'react-intersection-observer';
-
+import useRender from '~/config/hooks/useRender';
 import { images } from "~/images";
 
 function About() {
-    const [isInView, setIsInView] = useState(false);
-    const { ref, inView } = useInView({
-      threshold: 0.5, // change this value to adjust when the animation should trigger
-      triggerOnce: true, // change this value to trigger the animation every time the component enters the viewport
-    });
-  
-
-
-    useEffect(()=>{
-        if (inView) {
-            setIsInView(true);
-          }
-    },[inView])
+    const {isInView, ref} = useRender()
 
 
     return ( 

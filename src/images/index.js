@@ -7,7 +7,9 @@ export const images = {
     },
     planet: {
         planet1: require('./planet/planet1.png'),
-        planet2: require('./planet/planet2.png')
+        planet2: require('./planet/planet2.png'),
+        planet3: require('./planet/planet3.png'),
+
     },
     knowledge: {
         html: require('./knowledge/html.png'),
@@ -21,6 +23,12 @@ export const images = {
         tailwindcss: require('./knowledge/tailwindcss.png'),
         gitDark: require('./knowledge/git-dark.png'),
         git: require('./knowledge/git.png'),
-
+        php: require('./knowledge/php.png'),
+        phpDark: require('./knowledge/php-dark.png'),
+        python: require('./knowledge/python.png'),
+        java: require('./knowledge/java.png'),
+        docker: require('./knowledge/docker.png'),
+        dockerDark: require('./knowledge/docker-dark.png'),
+        mySQL: require('./knowledge/mySQL.png')
     }
 }

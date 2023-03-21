@@ -4,6 +4,7 @@ import ProgressBar from "~/components/ProgressBar";
 import About from "./About";
 import Knowledge from "./Knowledge";
 import Welcome from "./Welcome";
+import Activity from "./Activity";
 
 function DefaultLayout({children}){
     const [barProcess, setBarProcess] = useState(true);
@@ -27,6 +28,7 @@ function DefaultLayout({children}){
                     <Welcome/>
                     <About/>
                     <Knowledge/>
+                    <Activity/>
                 </>
             }
         </div>

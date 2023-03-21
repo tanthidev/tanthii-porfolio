@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <div className={`App min-h-screen bg-light-mode dark:bg-dark-mode animate-change-bg overflow-hidden`}>
-      <button onClick={handleDarkModeToggle} className={'fixed right-10 top-10 w-20 h-20 rounded-full dark:bg-purple-900 border-2 border-black dark:border-white'}>
+      <button onClick={handleDarkModeToggle} className={'fixed z-50 right-10 top-10 w-20 h-20 rounded-full dark:bg-purple-900 border-2 border-black dark:border-white'}>
         {
           darkMode ? <FontAwesomeIcon icon={faSun} className={'w-10 h-10 text-black'}/>:  <FontAwesomeIcon icon={faMoon} className={'w-12 h-12 text-yellow-400'}/>
         }  
