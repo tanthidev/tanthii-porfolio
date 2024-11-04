@@ -9,9 +9,13 @@ import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   const [darkMode, setDarkMode] = useDarkMode();
+  
   const handleDarkModeToggle = () => {
       setDarkMode(!darkMode);
+      console.log(darkMode);
   }
+
+  
 
   return (
     <Router>

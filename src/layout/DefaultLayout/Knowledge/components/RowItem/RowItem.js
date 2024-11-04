@@ -13,13 +13,13 @@ function RowItem({data, isInView, delays}) {
                     key={index}
                     delay={(index+1)*250} // Change the delay time to adjust when each item should appear
                     >
-                    <a href={item.link} className='fromLeftFast' target={'_blank'} rel="noreferrer">
+                    <a href={item.link} className='fromLeftFast ' target={'_blank'} rel="noreferrer">
                         {item.dark ? 
                             (<>
-                                <img src={item.dark} alt={item.alt} className='dark:block hidden'/>
-                                <img src={item.image} alt={item.alt} className='dark:hidden block'/>
+                                <img src={item.dark} alt={item.alt} className='dark:block hidden transform transition-transform duration-300 ease-in-out hover:scale-125'/>
+                                <img src={item.image} alt={item.alt} className='dark:hidden block transform transition-transform duration-300 ease-in-out hover:scale-125'/>
                             </>) 
-                            : (<img src={item.image} alt={item.alt}/>)
+                            : (<img src={item.image} alt={item.alt} className="transform transition-transform duration-300 ease-in-out hover:scale-125"/>)
                         }
                     </a>
                     </DelayedRender>

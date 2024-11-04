@@ -5,6 +5,9 @@ import About from "./About";
 import Knowledge from "./Knowledge";
 import Welcome from "./Welcome";
 import Activity from "./Activity";
+import Project from "./Project";
+import CopyRight from "./CopyRight";
+
 
 function DefaultLayout({children}){
     const [barProcess, setBarProcess] = useState(true);
@@ -29,6 +32,8 @@ function DefaultLayout({children}){
                     <About/>
                     <Knowledge/>
                     <Activity/>
+                    <Project/>
+                    <CopyRight/>
                 </>
             }
         </div>

@@ -29,6 +29,15 @@ export const images = {
         java: require('./knowledge/java.png'),
         docker: require('./knowledge/docker.png'),
         dockerDark: require('./knowledge/docker-dark.png'),
-        mySQL: require('./knowledge/mySQL.png')
+        mySQL: require('./knowledge/mySQL.png'),
+        mongoDBDark: require('./knowledge/mongoDB-dark.png'),
+        mongoDB: require('./knowledge/mongoDB.png')
+    },
+    activity: {
+        line: require('./activity/line.png'),
+        lineDark: require('./activity/line-dark.png'),
+    },
+    project: {
+        phuclong: require('./project/clone-phuc-long.png')
     }
 }

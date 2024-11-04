@@ -31,12 +31,12 @@ function Welcome() {
                 {/* Welcome */}
                 <div className="md:w-2/3 fromLeft">
                     <h1 className="text-5xl md:text-9xl font-bold text-center text-purple-title dark:text-blue-title pb-10">Hello, I'm TanThi</h1>
-                    <p className="text-3xl md:text-5xl font-semibold text-black dark:text-white text-center">
+                    {/* <p className="text-3xl md:text-5xl font-semibold text-black dark:text-white text-center">
                         Teaching assistant at&nbsp;
                         <a href="https://mindx.edu.vn/" target={"_blank"} rel="noreferrer">
                             MindX Technology School
                         </a>
-                    </p>
+                    </p> */}
                     <section className="flex justify-center mt-16">
                         <button 
                             className="md:text-4xl rounded-2xl md:rounded-3xl  font-medium bg-transparent border-2 border-purple-title dark:border-blue-title text-purple-title dark:text-blue-title px-3 py-2 md:px-6 md:py-4 mx-5"
@@ -53,7 +53,7 @@ function Welcome() {
                     </section>
                 </div>
                 {/* Image */}
-                <div className="mt-20 w-2/3 md:w-1/5 mx-auto flex justify-center fromRight card">
+                <div className="mt-20 w-2/3 md:w-1/5 mx-auto flex justify-center fromRight cards">
                     <img src={images.common.myImage} alt='My Avatar' className="rounded-2xl"/>
                 </div>
             </div>

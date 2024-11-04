@@ -15,7 +15,7 @@ function Knowledge() {
       {image: images.knowledge.js, alt: 'js', link: 'https://www.javascript.com/'},
       {image: images.knowledge.python, alt: 'python', link: 'https://www.python.org/'},
       {image: images.knowledge.java, alt: 'java', link: 'https://www.java.com/en/'},
-      {image: images.knowledge.php, alt: 'git', dark: images.knowledge.phpDark, link: 'https://www.php.net/'},
+      // {image: images.knowledge.php, alt: 'git', dark: images.knowledge.phpDark, link: 'https://www.php.net/'},
     ],
     // Framework
     [
@@ -23,13 +23,15 @@ function Knowledge() {
       {image: images.knowledge.nodejs, alt: 'nodejs', dark: images.knowledge.nodejsDark, link:'https://nodejs.org/en/about'},
       {image: images.knowledge.tailwindcss, alt: 'tailwindcss', link: 'https://tailwindcss.com/'},
     ],
-    //Database
     [
+      //Database
       {image: images.knowledge.firebase, alt: 'firebase', dark: images.knowledge.firebaseDark, link: 'https://firebase.google.com/'},
       {image: images.knowledge.mySQL, alt: 'mySQL', link: 'https://www.mysql.com/'},
+      {image: images.knowledge.mongoDB, dark: images.knowledge.mongoDBDark, alt: 'MongoDB', link: 'https://www.mongodb.com/'},
 
 
-      // Tool
+
+      // Devops
       {image: images.knowledge.git, alt: 'git', dark: images.knowledge.gitDark, link: 'https://git-scm.com/about'},
       {image: images.knowledge.docker, alt: 'docker', dark: images.knowledge.dockerDark, link: 'https://www.docker.com/'},
     ],

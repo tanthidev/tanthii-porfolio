@@ -24,8 +24,7 @@ function About() {
                 <h2 className="text-purple-title dark:text-blue-title text-center text-4xl md:text-6xl font-bold mb-16">ABOUT ME</h2>
                 <p className={`text-2xl text-justify md:text-3xl md:leading-loose ${isInView ? 'fromBot text-black dark:text-white' : 'text-transparent'}`} ref={ref}>
                     Good day, everyone! I'm Le Nguyen Tan Thi, and I'm a third-year computer science major at Ton Duc Thang University. 
-                    I am originally from Ba Ria - Vung Tau, Vietnam. I have a strong interest in technology and football. As a current teaching assistant 
-                    at MindX Technology School, I enjoy sharing my knowledge and helping others develop their skills.
+                    I am originally from Ba Ria - Vung Tau, Vietnam. I have a strong interest in technology and football.
                     <br/><br/>
                     I have a passion for exploring new programming languages and technologies to solve complex problems. 
                     I am excited to continue growing my expertise and contribute to the ever-evolving tech industry.
