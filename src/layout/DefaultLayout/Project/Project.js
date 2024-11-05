@@ -88,10 +88,10 @@ function Project() {
                         <button onClick={handleCloseModal} className="mt-4 bg-red-500 text-white py-2 px-4 rounded">X</button>
                     </div> */}
                      
-                    <div className="relative bg-gray-900 text-white font-sans mx-10 p-10 pt-3 md:w-2/3">
+                    <div className="relative bg-gray-900 text-white md:h-auto h-2/3 overflow-scroll font-sans  mx-10 p-10 pt-3 md:w-2/3">
                         <button
                             onClick={handleCloseModal}
-                            className="absolute px-5 -top-2 -right-2 text-gray-900 bg-yellow-500 hover:bg-yellow-400 rounded-full p-3 shadow-lg transition duration-200 transform hover:scale-110 focus:outline-none"
+                            className="sticky px-5 left-full top-0 text-gray-900 bg-yellow-500 hover:bg-yellow-400 rounded-full p-3 shadow-lg transition duration-200 transform hover:scale-110 focus:outline-none"
                         >
                             ✕
                         </button>
