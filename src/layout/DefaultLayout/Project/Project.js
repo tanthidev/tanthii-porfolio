@@ -16,28 +16,7 @@ function Project() {
             git: "https://github.com/tanthidev/PhucLongCoffee-Tea",
             live: "https://phuc-long-coffee-tea.vercel.app/"
         },
-        // WorkShop
-        { 
-            id: 2, 
-            name: "WorkShop", 
-            image: images.project.workshop, 
-            description: "The Workshop Management Website facilitates workshop organization and participation, allowing users to register and manage events while providing admins with tools for oversight and management. It enhances the experience for both participants and organizers.", 
-            created: "4/2024", 
-            framework: "NodeJs, Express, Tailwind CSS, Mongoose, Socket.IO, bcrypt, cookie-parser, jsonwebtoken, ...",
-            git: "https://github.com/tanthidev/workshop",
-            live: "https://workshop-one-nu.vercel.app/",
-        },
-        // AiPhone
-        { 
-            id: 3, 
-            name: "AiPhone", 
-            image: images.project.AiPhone, 
-            description: "The AiPhone system is a platform that enables employees to conduct sales transactions in-store. Users can view inventory and product information. Admins have the authority to create and edit products, add new employees, and send email verification for employee accounts. Notably, the system supports payment through blockchain technology, providing safety and convenience in transactions.", 
-            created: "11/2023", 
-            framework: "Node.js, Express.js, Mongoose, Tailwind CSS, Web3.js, Nodemailer, jsonwebtoken, Axios, ...",
-            git: "https://github.com/tanthidev/AiPhone",
-            live: "https://phuc-long-coffee-tea.vercel.app/",
-        },
+        //Hotel Booking System
         { 
             id: 4, 
             name: "Hotel Booking System", 
@@ -48,6 +27,29 @@ function Project() {
             git: "https://github.com/tanthidev/Hotel-project",
             live: "https://youtu.be/Mq1hccsfmQk",
         },
+        // WorkShop
+        { 
+            id: 2, 
+            name: "WorkShop", 
+            image: images.project.workshop, 
+            description: "The Workshop Management Website facilitates workshop organization and participation, allowing users to register and manage events while providing admins with tools for oversight and management. It enhances the experience for both participants and organizers.", 
+            created: "4/2024", 
+            framework: "NodeJs, Express, Tailwind CSS, Mongoose, Socket.IO, bcrypt, cookie-parser, jsonwebtoken, ...",
+            git: "https://github.com/tanthidev/workshop",
+            live: "#",
+        },
+        // AiPhone
+        { 
+            id: 3, 
+            name: "AiPhone", 
+            image: images.project.AiPhone, 
+            description: "The AiPhone system is a platform that enables employees to conduct sales transactions in-store. Users can view inventory and product information. Admins have the authority to create and edit products, add new employees, and send email verification for employee accounts. Notably, the system supports payment through blockchain technology, providing safety and convenience in transactions. THIS WEBSITE ONLYTHE WEBSITE CAN ONLY USE THE PC/LAPTOP INTERFACE ", 
+            created: "11/2023", 
+            framework: "Node.js, Express.js, Mongoose, Tailwind CSS, Web3.js, Nodemailer, jsonwebtoken, Axios, ...",
+            git: "https://github.com/tanthidev/AiPhone",
+            live: "https://ai-phone-nine.vercel.app/",
+        },
+        
     ];
 
     const [selectedProject, setSelectedProject] = useState(null);
