@@ -66,7 +66,7 @@ function Welcome() {
                     {/* Phone Number Section */}
                     <div className="flex justify-center items-center mt-4">
                         
-                        <a href="tel:+84123456789" className="text-2xl text-purple-title dark:text-blue-title">
+                        <a href="tel:+84862781271" className="text-2xl text-purple-title dark:text-blue-title">
                             <i className="fas fa-phone text-2xl text-purple-title dark:text-blue-title mr-2"></i>
                             +84 862 781 271
                         </a>
