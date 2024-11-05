@@ -31,12 +31,6 @@ function Welcome() {
                 {/* Welcome */}
                 <div className="md:w-2/3 fromLeft">
                     <h1 className="text-5xl md:text-9xl font-bold text-center text-purple-title dark:text-blue-title pb-10">Hello, I'm TanThi</h1>
-                    {/* <p className="text-3xl md:text-5xl font-semibold text-black dark:text-white text-center">
-                        Teaching assistant at&nbsp;
-                        <a href="https://mindx.edu.vn/" target={"_blank"} rel="noreferrer">
-                            MindX Technology School
-                        </a>
-                    </p> */}
                     <section className="flex justify-center mt-16">
                         <button 
                             className="md:text-4xl rounded-2xl md:rounded-3xl  font-medium bg-transparent border-2 border-purple-title dark:border-blue-title text-purple-title dark:text-blue-title px-3 py-2 md:px-6 md:py-4 mx-5"
@@ -51,6 +45,29 @@ function Welcome() {
                             Let's Talk
                         </a>
                     </section>
+                    <div className="flex justify-center mt-4 space-x-6">
+                        {/* Social Media Icons */}
+                        <a href="https://www.facebook.com/lntt.1806" target="_blank" rel="noopener noreferrer" className="text-purple-title dark:text-blue-title">
+                            <i className="fab fa-facebook-f text-5xl mx-3"></i>
+                        </a>
+                        <a href="https://github.com/tanthidev" target="_blank" rel="noopener noreferrer" className="text-purple-title dark:text-blue-title">
+                            <i className="fab fa-github text-5xl mx-3"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/thi-le-ba5350200/" target="_blank" rel="noopener noreferrer" className="text-purple-title dark:text-blue-title">
+                            <i className="fab fa-linkedin-in text-5xl mx-3"></i>
+                        </a>
+                        <a href="https://www.instagram.com/tannthi.de/" target="_blank" rel="noopener noreferrer" className="text-purple-title dark:text-blue-title">
+                            <i className="fab fa-instagram text-5xl mx-3"></i>
+                        </a>
+                    </div>
+                    {/* Phone Number Section */}
+                    <div className="flex justify-center items-center mt-4">
+                        
+                        <a href="tel:+84123456789" className="text-2xl text-purple-title dark:text-blue-title">
+                            <i className="fas fa-phone text-2xl text-purple-title dark:text-blue-title mr-2"></i>
+                            +84 862 781 271
+                        </a>
+                    </div>
                 </div>
                 {/* Image */}
                 <div className="mt-20 w-2/3 md:w-1/5 mx-auto flex justify-center fromRight cards">

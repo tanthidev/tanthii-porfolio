@@ -38,6 +38,11 @@ export const images = {
         lineDark: require('./activity/line-dark.png'),
     },
     project: {
-        phuclong: require('./project/clone-phuc-long.png')
+        phuclong: require('./project/clone-phuc-long.png'),
+        workshop: require('./project/workshop.png'),
+        AiPhone: require('./project/AiPhone.png'),
+        hotel: require('./project/hotel.png'),
+
+
     }
 }

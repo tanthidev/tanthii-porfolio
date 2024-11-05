@@ -5,19 +5,49 @@ import React, { useState } from "react";
 
 function Project() {
     const projects = [
+        // Phuc Long Coffee Clone UI
         { 
             id: 1, 
             name: "Phuc Long Coffee Clone UI", 
             image: images.project.phuclong, 
             description: "The Phuc Long Coffee Clone UI project is a front-end web application designed to replicate the user interface of Phuc Long Coffee's online platform. This project aims to provide a seamless, visually appealing, and user-friendly interface, capturing the look and feel of Phuc Long Coffee’s branding and layout.", 
             created: "2/2023", 
-            fontend: "ReactJS, TailwindCSS, SCSS",
-            backend: "",
-            features: "Updating...",
+            framework: "React, React Router, Tailwind CSS, Sass, PostCSS, ...",
+            git: "https://github.com/tanthidev/PhucLongCoffee-Tea",
             live: "https://phuc-long-coffee-tea.vercel.app/"
         },
-        { id: 2, name: "Dự án B", image: images.project.phuclong, description: "Chi tiết về dự án B", status: "Completed", startDate: "2024-02-15" },
-        { id: 3, name: "Dự án C", image: images.project.phuclong, description: "Chi tiết về dự án C", status: "Pending", startDate: "2024-03-10" },
+        // WorkShop
+        { 
+            id: 2, 
+            name: "WorkShop", 
+            image: images.project.workshop, 
+            description: "The Workshop Management Website facilitates workshop organization and participation, allowing users to register and manage events while providing admins with tools for oversight and management. It enhances the experience for both participants and organizers.", 
+            created: "4/2024", 
+            framework: "NodeJs, Express, Tailwind CSS, Mongoose, Socket.IO, bcrypt, cookie-parser, jsonwebtoken, ...",
+            git: "https://github.com/tanthidev/workshop",
+            live: "https://workshop-one-nu.vercel.app/",
+        },
+        // AiPhone
+        { 
+            id: 3, 
+            name: "AiPhone", 
+            image: images.project.AiPhone, 
+            description: "The AiPhone system is a platform that enables employees to conduct sales transactions in-store. Users can view inventory and product information. Admins have the authority to create and edit products, add new employees, and send email verification for employee accounts. Notably, the system supports payment through blockchain technology, providing safety and convenience in transactions.", 
+            created: "11/2023", 
+            framework: "Node.js, Express.js, Mongoose, Tailwind CSS, Web3.js, Nodemailer, jsonwebtoken, Axios, ...",
+            git: "https://github.com/tanthidev/AiPhone",
+            live: "https://phuc-long-coffee-tea.vercel.app/",
+        },
+        { 
+            id: 4, 
+            name: "Hotel Booking System", 
+            image: images.project.hotel, 
+            description: "A hotel booking system designed using HTML, CSS, and JavaScript for the front-end, and PHP for the back-end, following the MVC (Model-View-Controller) design pattern and utilizing a MySQL database. The system features user authentication (login, registration, and password reset via email OTP), allows users to change their information, check booking history, search and filter available rooms, and enables admin CRUD operations for managing users, rooms, and booking lists.", 
+            created: "10/2022",
+            framework: "HTML, CSS, JS, PHP, MySQL,...",
+            git: "https://github.com/tanthidev/Hotel-project",
+            live: "https://youtu.be/Mq1hccsfmQk",
+        },
     ];
 
     const [selectedProject, setSelectedProject] = useState(null);
@@ -94,9 +124,12 @@ function Project() {
                                 </p>
                                 <ul className="space-y-3 text-gray-300">
                                     <li><span className="font-semibold">Created: </span>{selectedProject.created}</li>
-                                    <li><span className="font-semibold">Frontend: </span>{selectedProject.fontend}</li>
-                                    <li><span className="font-semibold">Backend: </span>{selectedProject.backend}</li>
-                                    <li><span className="font-semibold">Features: </span>{selectedProject.features}</li>
+                                    <li><span className="font-semibold">FrameWork & Libary: </span>{selectedProject.framework}</li>
+                                    <li><span className="font-semibold">Github: </span>
+                                            <a href={selectedProject.git} target="_blank"rel="noopener noreferrer">
+                                                Link
+                                            </a>
+                                    </li>
                                 </ul>
                                 
                             </div>
