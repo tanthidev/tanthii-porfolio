@@ -55,7 +55,7 @@ function Carousel({ children }) {
             onMouseUp={handleMouseUp}
         >
             {active > 0 && (
-                <button className="nav left" onClick={handlePrev}>
+                <button className="nav left text-black dark:text-white" onClick={handlePrev}>
                     <TiChevronLeftOutline />
                 </button>
             )}
@@ -66,7 +66,7 @@ function Carousel({ children }) {
                         "--active": i === active ? 1 : 0,
                         "--offset": (active - i) / 5,
                         "--direction": Math.sign(active - i),
-                        "--abs-offset": Math.abs(active - i) / 3,
+                        "--abs-offset": Math.abs(active - i) / 2,
                         "pointer-events": active === i ? "auto" : "none",
                         "opacity": Math.abs(active - i) >= MAX_VISIBILITY ? "0" : "1",
                         "display": Math.abs(active - i) > MAX_VISIBILITY ? "none" : "block",
@@ -76,7 +76,7 @@ function Carousel({ children }) {
                 </div>
             ))}
             {active < count - 1 && (
-                <button className="nav right" onClick={handleNext}>
+                <button className="nav right text-black dark:text-white" onClick={handleNext}>
                     <TiChevronRightOutline />
                 </button>
             )}

@@ -32,11 +32,14 @@ function Welcome() {
                 <div className="md:w-2/3 fromLeft">
                     <h1 className="text-5xl md:text-9xl font-bold text-center text-purple-title dark:text-blue-title pb-10">Hello, I'm TanThi</h1>
                     <section className="flex justify-center mt-16">
-                        <button 
+                        <a 
+                            href="https://drive.google.com/file/d/1p8aASdXmGSkPqZW4-RNOVkVKUfdneGfz/view?usp=sharing"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="md:text-4xl rounded-2xl md:rounded-3xl  font-medium bg-transparent border-2 border-purple-title dark:border-blue-title text-purple-title dark:text-blue-title px-3 py-2 md:px-6 md:py-4 mx-5"
                         >
                             Download my CV
-                        </button>
+                        </a>
                         <a 
                             href="https://m.me/lntt.1806"
                             target={'_blank'}
